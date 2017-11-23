@@ -35,6 +35,7 @@ public class calcula {
 		Button button = new Button(shell, SWT.NONE);
 		button.setBounds(111, 62, 75, 25);
 		button.setText("2");
+		System.out.println("hola");
 
 		shell.open();
 		shell.layout();
